@@ -1,5 +1,5 @@
 import React from "react";
-import searchdark from "../Assets/searchdark.png";
+// import searchdark from "../Assets/searchdark.png";
 
 function SearchBar() {
   return (
