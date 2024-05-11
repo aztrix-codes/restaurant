@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/restaurant/static/css/main.977eedea.css",
+    "main.js": "/restaurant/static/js/main.880fff31.js",
+    "static/js/453.3257c68d.chunk.js": "/restaurant/static/js/453.3257c68d.chunk.js",
+    "static/media/logo.png": "/restaurant/static/media/logo.f69fa4942a666aa53712.png",
+    "static/media/noddle2.jpg": "/restaurant/static/media/noddle2.b0fbe74717ac335c0787.jpg",
+    "static/media/noddle5.jpg": "/restaurant/static/media/noddle5.42d92f3398f036fa2577.jpg",
+    "static/media/burgereight.jpeg": "/restaurant/static/media/burgereight.87336ecace1f17899815.jpeg",
+    "static/media/noddle9.jpg": "/restaurant/static/media/noddle9.2819b908ebd0dfcb093c.jpg",
+    "static/media/noddle8.jpg": "/restaurant/static/media/noddle8.c31cc7c2c177a25b20b0.jpg",
+    "static/media/noddle3.jpg": "/restaurant/static/media/noddle3.41b075da9737d71ccda7.jpg",
+    "static/media/noddle1.jpg": "/restaurant/static/media/noddle1.6623261f3a36fee21d58.jpg",
+    "static/media/noddle6.jpg": "/restaurant/static/media/noddle6.8ddccb673f35c2d92900.jpg",
+    "static/media/desert4.jpg": "/restaurant/static/media/desert4.26ae28094e769c61c897.jpg",
+    "static/media/burgerseven.jpeg": "/restaurant/static/media/burgerseven.0de7acb6679e64c09a1d.jpeg",
+    "static/media/noddle4.jpg": "/restaurant/static/media/noddle4.95ddfdd34ee612f2f420.jpg",
+    "static/media/burgerfive.jpeg": "/restaurant/static/media/burgerfive.eca4eb67fde020ba255b.jpeg",
+    "static/media/burgertwelve.jpeg": "/restaurant/static/media/burgertwelve.275c606f817337210290.jpeg",
+    "static/media/drink2.jpg": "/restaurant/static/media/drink2.427cd4edcfeb2ca7c586.jpg",
+    "static/media/desert5.jpg": "/restaurant/static/media/desert5.6c365dfae867ac11e050.jpg",
+    "index.html": "/restaurant/index.html",
+    "main.977eedea.css.map": "/restaurant/static/css/main.977eedea.css.map",
+    "main.880fff31.js.map": "/restaurant/static/js/main.880fff31.js.map",
+    "453.3257c68d.chunk.js.map": "/restaurant/static/js/453.3257c68d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.977eedea.css",
+    "static/js/main.880fff31.js"
+  ]
+}
