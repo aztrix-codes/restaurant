@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { filterMenu } from "../Utils/uidata";
 
-function Filter() {
-  const [activeLink, setActiveLink] = useState(1);
-
+function Filter({ setActiveLink, activeLink }) {
   return (
     <div className="Filter">
       {filterMenu.map((item) => (
-        <div key={item.id}
+        <div
+          key={item.id}
           className={`filter-item ${activeLink === item.id ? "filter-active" : ""}`}
           onClick={() => setActiveLink(item.id)}
         >
