@@ -38,7 +38,7 @@ import drink7 from '../Assets/Drinks/drink7.jpg';
 export var itemCards = [
   {
     id: 101,
-    name: "Burger",
+    name: "Pickle Burger",
     img: burgerone,
     cost: 6.99,
     count: 11,
@@ -46,7 +46,7 @@ export var itemCards = [
   },
   {
     id: 102,
-    name: "Burger",
+    name: "Jumbo Burger with French Fries",
     img: burgertwo,
     cost: 6.99,
     count: 11,
@@ -54,7 +54,7 @@ export var itemCards = [
   },
   {
     id: 103,
-    name: "Burger",
+    name: "Simple Burger with Pickle",
     img: burgerthree,
     cost: 6.99,
     count: 11,
@@ -62,7 +62,7 @@ export var itemCards = [
   },
   {
     id: 104,
-    name: "Burger",
+    name: "Spicy Burger",
     img: burgerfour,
     cost: 6.99,
     count: 11,
@@ -70,7 +70,7 @@ export var itemCards = [
   },
   {
     id: 105,
-    name: "Burger",
+    name: "Cheese Burger",
     img: burgerfive,
     cost: 6.99,
     count: 11,
@@ -86,7 +86,7 @@ export var itemCards = [
   },
   {
     id: 107,
-    name: "Burger",
+    name: "Veg Large Burger",
     img: burgerseven,
     cost: 6.99,
     count: 11,
@@ -94,7 +94,7 @@ export var itemCards = [
   },
   {
     id: 108,
-    name: "Burger",
+    name: "Double Cheese Burger",
     img: burgereight,
     cost: 6.99,
     count: 11,
@@ -102,7 +102,7 @@ export var itemCards = [
   },
   {
     id: 109,
-    name: "Burger",
+    name: "Veg Burger",
     img: burgernine,
     cost: 6.99,
     count: 11,
@@ -110,7 +110,7 @@ export var itemCards = [
   },
   {
     id: 110,
-    name: "Burger",
+    name: "Jumbo Burger",
     img: burgerten,
     cost: 6.99,
     count: 11,
@@ -126,7 +126,7 @@ export var itemCards = [
   },
   {
     id: 112,
-    name: "Burger",
+    name: "Veg Large Burger",
     img: burgertwelve,
     cost: 6.99,
     count: 11,
@@ -134,7 +134,7 @@ export var itemCards = [
   },
   {
     id: 113,
-    name: "Burger",
+    name: "SimpleNudget Burger",
     img: burgerthirteen,
     cost: 6.99,
     count: 11,
@@ -142,7 +142,7 @@ export var itemCards = [
   },
   {
     id: 114,
-    name: "Burger",
+    name: "Nudget Burger",
     img: burgerfourteen,
     cost: 6.99,
     count: 11,
@@ -150,7 +150,7 @@ export var itemCards = [
   },
   {
     id: 201,
-    name: "Noddle",
+    name: "Meggi",
     img: noddle1,
     cost: 5.99,
     count: 6,
@@ -158,7 +158,7 @@ export var itemCards = [
   },
   {
     id: 202,
-    name: "Noddle",
+    name: "Meggi Special",
     img: noddle2,
     cost: 5.99,
     count: 6,
@@ -166,7 +166,7 @@ export var itemCards = [
   },
   {
     id: 203,
-    name: "Noddle",
+    name: "Spagheti",
     img: noddle3,
     cost: 5.99,
     count: 6,
@@ -174,7 +174,7 @@ export var itemCards = [
   },
   {
     id: 204,
-    name: "Noddle",
+    name: "Chinese Noddle",
     img: noddle4,
     cost: 5.99,
     count: 6,
@@ -182,7 +182,7 @@ export var itemCards = [
   },
   {
     id: 205,
-    name: "Noddle",
+    name: "Ramen",
     img: noddle5,
     cost: 5.99,
     count: 6,
@@ -198,7 +198,7 @@ export var itemCards = [
   },
   {
     id: 207,
-    name: "Noddle",
+    name: "Japanese Noddle",
     img: noddle7,
     cost: 5.99,
     count: 6,
@@ -206,7 +206,7 @@ export var itemCards = [
   },
   {
     id: 208,
-    name: "Noddle",
+    name: "Spicy Noddle",
     img: noddle8,
     cost: 5.99,
     count: 6,
@@ -214,7 +214,7 @@ export var itemCards = [
   },
   {
     id: 209,
-    name: "Noddle",
+    name: "Spicy Spagheti",
     img: noddle9,
     cost: 5.99,
     count: 6,
@@ -222,7 +222,7 @@ export var itemCards = [
   },
   {
     id: 301,
-    name: "Desert",
+    name: "Lava Cake",
     img: desert1,
     cost: 6.99,
     count: 13,
@@ -230,7 +230,7 @@ export var itemCards = [
   },
   {
     id: 302,
-    name: "Desert",
+    name: "Muffin Cream",
     img: desert2,
     cost: 6.99,
     count: 13,
@@ -238,7 +238,7 @@ export var itemCards = [
   },
   {
     id: 303,
-    name: "Desert",
+    name: "Puri Ice Cream",
     img: desert3,
     cost: 6.99,
     count: 13,
@@ -246,7 +246,7 @@ export var itemCards = [
   },
   {
     id: 304,
-    name: "Desert",
+    name: "Chocolate Ice Cream",
     img: desert4,
     cost: 6.99,
     count: 13,
@@ -254,7 +254,7 @@ export var itemCards = [
   },
   {
     id: 305,
-    name: "Desert",
+    name: "Vanila Ice Cream",
     img: desert5,
     cost: 6.99,
     count: 13,
@@ -262,39 +262,39 @@ export var itemCards = [
   },
   {
     id: 401,
-    name: "Drink",
+    name: "Chocolate Shake",
     img: drink1,
-    cost: 4.99,
+    cost: 7.99,
     count: 15,
     type: 4,
   },
   {
     id: 402,
-    name: "Drink",
+    name: "Bilberry Shake",
     img: drink2,
-    cost: 4.99,
+    cost: 7.99,
     count: 15,
     type: 4,
   },
   {
     id: 403,
-    name: "Drink",
+    name: "Oreo Shake",
     img: drink3,
-    cost: 4.99,
+    cost: 7.99,
     count: 15,
     type: 4,
   },
   {
     id: 404,
-    name: "Drink",
+    name: "Coke",
     img: drink4,
-    cost: 4.99,
+    cost: 2.99,
     count: 15,
     type: 4,
   },
   {
     id: 405,
-    name: "Drink",
+    name: "Mojito Special",
     img: drink5,
     cost: 4.99,
     count: 15,
@@ -302,7 +302,7 @@ export var itemCards = [
   },
   {
     id: 406,
-    name: "Drink",
+    name: "Blueberry Mojito",
     img: drink6,
     cost: 4.99,
     count: 15,
@@ -310,7 +310,7 @@ export var itemCards = [
   },
   {
     id: 407,
-    name: "Drink",
+    name: "Mojito",
     img: drink7,
     cost: 4.99,
     count: 15,

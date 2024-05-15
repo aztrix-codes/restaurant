@@ -1,5 +1,5 @@
 .App {
-  background: #17181f;
+  /* background: #17181f; */
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -10,7 +10,7 @@
 .Navbar {
   display: flex;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.5);
+  background:  rgba(0, 0, 0, 0.9);
   flex: 1;
 }
 
@@ -27,32 +27,39 @@
 .menu-container {
   flex: 9;
   color: white;
-  text-align: center;
-  justify-content: space-around;
 }
 .Link {
   text-decoration: none;
   color: white;
 }
 .menu-item {
-  padding: 10%;
-  margin: 15%;
   border-radius: 24px;
   cursor: pointer;
+  width: calc(5vw + 30px);
+  height: calc(5vw + 30px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 10% auto ;
 }
 .active {
   background-color: #f05756;
 }
 .menu-item-img {
-  width: 50%;
+  width: calc(1vw + 40px);
 }
 .menu-item-name {
   font-size: calc(0.5vw + 10px);
   padding: 1% 0;
 }
 
-.Body {
+.right-side {
   flex: 8;
+}
+
+.Body {
   display: flex;
   flex-direction: row;
   color: white;
@@ -85,19 +92,18 @@
 }
 
 .search-section {
-  padding: 0 4%;
+  padding: 0 5%;
   width: 100%;
   flex: 1;
 }
 .search-input {
   width: 100%;
-  padding: 3% 5%;
-  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3% 1% 3% 11%;
   border-radius: 16px;
   border: none;
   outline: none;
   font-size: calc(0.7vw + 10px);
-  color: whitesmoke;
+  letter-spacing: .5px;
 }
 
 .Filter {
@@ -107,7 +113,6 @@
   align-items: center;
 }
 .filter-item {
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 0 1%;
   display: flex;
   flex-direction: row;
@@ -116,7 +121,7 @@
   flex: 1;
   margin: 1% 2.6%;
   cursor: pointer;
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid transparent;
 }
 .filter-active {
   border: 2px solid #f05756;
@@ -146,10 +151,9 @@
   overflow-y: scroll;
 }
 .card {
-  background-color: rgba(0, 0, 0, 0.5);
   height: max-content;
   width: max-content;
-  margin: 1% 2.52%;
+  margin: 2% 2.52%;
   border-radius: 24px;
   padding: 1.5%;
   cursor: pointer;
@@ -186,6 +190,66 @@
 }
 
 
-.filahl {
-  flex: 8;
+.Stock-item, .Settings {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
 }
+
+.setting-name {
+  font-size: calc(3vw + 20px);
+  padding: 2% 0;
+}
+
+.theme {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 1% 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.theme-toggle-btn {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.theme-toggle-btn input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.theme-toggle-btn label {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: background-color 0.3s;
+}
+.theme-toggle-btn label:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.theme-toggle-btn input:checked + label {
+  background-color: #f05756;
+}
+.theme-toggle-btn input:checked + label:before {
+  transform: translateX(26px);
+}
+
+
+
+

@@ -4,7 +4,7 @@ import BodyBill from "./BodyBill";
 
 function Home() {
   return (
-    <div className="Body">
+    <div className="Body right-side">
       <BodyMain />
       <BodyBill />
     </div>
