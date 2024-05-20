@@ -17,7 +17,7 @@ function SearchBar({ searchText, setSearchText }) {
           })}
         </p>
       </div>
-      <div className="search-section">
+      <div className="search-section" style={{ position: 'relative' }}>
         <input 
           type="text" 
           placeholder="Search" 
@@ -26,10 +26,10 @@ function SearchBar({ searchText, setSearchText }) {
           onChange={(e) => setSearchText(e.target.value)} 
           style={{ 
             background: theme === "dark" ? 'rgba(0,0,0,.7)' : 'rgba(255,255,255,.7)', 
-            color: theme === 'dark' ? "white" : "black" 
+            color: theme === 'dark' ? "white" : "black",
           }}
         />
-        <h1 style={{ position: 'absolute', top: "4.7vh", left: '44vw', fontSize: 'calc(1vw + 12px)' }}>🔍</h1>
+        <h1 style={{ position: 'absolute', top: "45%", left: '2%', transform: 'translateY(-50%)', fontSize: '2vw' }}>🔍</h1>
       </div>
     </div>
   );

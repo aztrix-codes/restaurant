@@ -10,18 +10,18 @@
 .Navbar {
   display: flex;
   flex-direction: column;
-  background:  rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   flex: 1;
 }
 
 .logo-container {
   text-align: center;
-  padding: 20px 0;
+  padding: 2vh 0;
   justify-content: center;
   flex: 1;
 }
 .logo-img {
-  width: 60%;
+  width: 8vw;
 }
 
 .menu-container {
@@ -33,26 +33,26 @@
   color: white;
 }
 .menu-item {
-  border-radius: 24px;
+  border-radius: 2vw;
   cursor: pointer;
-  width: calc(5vw + 30px);
-  height: calc(5vw + 30px);
+  width: 7vw;
+  height: 7vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin: 10% auto ;
+  margin: 2vh auto;
 }
 .active {
   background-color: #f05756;
 }
 .menu-item-img {
-  width: calc(1vw + 40px);
+  width: 3vw;
 }
 .menu-item-name {
-  font-size: calc(0.5vw + 10px);
-  padding: 1% 0;
+  font-size: 1.3vw;
+  padding: .1vh 0;
 }
 
 .right-side {
@@ -75,7 +75,7 @@
   flex: 1;
   display: flex;
   flex-direction: row;
-  padding: 0 3%;
+  padding: 0 2vw;
   align-items: center;
 }
 .res-name {
@@ -83,27 +83,26 @@
 }
 .res-name h1 {
   letter-spacing: 1px;
-  font-size: calc(2vw + 10px);
+  font-size: 3vw;
 }
 .res-name p {
-  font-size: calc(.6vw + 10px);
+  font-size: 1.25vw;
   color: gray;
   letter-spacing: 0.5px;
 }
 
 .search-section {
-  padding: 0 5%;
   width: 100%;
   flex: 1;
 }
 .search-input {
-  width: 100%;
-  padding: 3% 1% 3% 11%;
-  border-radius: 16px;
+  width: 27.4vw;
+  padding: .7vw .5vw .7vw 3.5vw;
+  border-radius: 1vw;
   border: none;
   outline: none;
-  font-size: calc(0.7vw + 10px);
-  letter-spacing: .5px;
+  font-size: 1.6vw;
+  letter-spacing: 0.5px;
 }
 
 .Filter {
@@ -113,19 +112,19 @@
   align-items: center;
 }
 .filter-item {
-  padding: 0 1%;
+  padding: 0 1vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 24px;
+  border-radius: 1.5vw;
   flex: 1;
-  margin: 1% 2.6%;
+  margin: 1vw 1.5vw;
   cursor: pointer;
-  border: 2px solid transparent;
+  border: .15vw solid transparent;
 }
 .filter-active {
-  border: 2px solid #f05756;
-  box-shadow: inset 0 0 20px #f05756;
+  border: .15vw solid #f05756;
+  box-shadow: inset 0 0 1.5vw #f05756;
 }
 .filter-item img {
   width: 5vw;
@@ -139,66 +138,197 @@
   flex: 2;
 }
 .filter-name p {
-  font-size: calc(0.6vw + 12px);
-  letter-spacing: 0.5px;
+  font-size: 1.4vw;
+  letter-spacing: .6px;
 }
+
 
 .SellCard {
   flex: 5;
   display: flex;
   flex-wrap: wrap;
-  padding: 1% 1.3%;
-  overflow-y: scroll;
+  padding: .5vw .97vw;
 }
 .card {
   height: max-content;
   width: max-content;
-  margin: 2% 2.52%;
-  border-radius: 24px;
-  padding: 1.5%;
+  margin: 1.5vw;
+  border-radius: 2vw;
+  padding: 1vw;
   cursor: pointer;
 }
-.card img {
-  width: calc(5vw + 109px);
-  height: calc(5vw + 50px);
-  border-radius: 16px;
+.card:hover {
+  box-shadow: 0 0 30px gray;
 }
+.card img {
+  width: 10.67vw;
+  height: 7vw;
+  border-radius: 1vw;
+}
+
 .card-item-details {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 5%;
+  padding-top: .5vw;
 }
 .item-name {
-  padding: 1% 0;
+  padding: .2vw 0;
+  font-size: 1.3vw;
 }
 .item-price {
-  font-size: calc(.6vw + 12px);
+  font-size: 1.5vw;
   color: #f05756;
   font-weight: 500;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 .stock {
   color: gray;
-  font-size: calc(0.3vw + 10px);
+  font-size: .9vw;
 }
-
 
 .BodyBill {
   flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.OrderCards {
+  flex: 5;
+  padding: 1.6vw 1vw .5vw .5vw;
+}
+.OrderCards h1 {
+  font-size: 2.2vw;
+  letter-spacing: 0.5px;
+}
+.order-cards {
+  height: 55vh;
+  margin-top: 1vh;
+}
+.order-card {
+  margin: .5vw 0;
+  padding: .5vw;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.order-card:hover {
+  box-shadow: inset 0 0 1vw red;
+}
+.order-card-img {
+  flex: 1;
+}
+.order-name {
+  flex: 3;
+  padding: 0 1% 0 3%;
+  font-size: 1vw;
+}
+.order-cost {
+  flex: 1;
+  text-align: center;
+  color: #f05756;
+  font-size: 1.05vw;
+}
+.order-card-img img {
+  width: 6vw;
+  height: 4vw;
+  border-radius: 1vw;
+}
+.OrderBill {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin: 0 5% 10% 2%;
+  border-radius: 2vw;
+  justify-content: center;
+}
+.OrderBill p {
+  color: gray;
+  font-size: 1.1vw;
+  letter-spacing: 0.5px;
+}
+.OrderBill h3 {
+  color: #f05756;
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+.orderbill-cost,
+.orderbill-cost-tax,
+.orderbill-cost-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+}
+.bill-divider {
+  border-top: .1vw solid gray;
+  margin-top: 5% ;
+  flex: .1;
+}
+.orderbill-cost-total p {
+  font-weight: 600;
+  font-size: 1.4vw;
+  letter-spacing: 1px;
+}
+.orderbill-cost-total h3 {
+  font-size: 1.5vw;
+}
+.bill-generate-btn {
+  flex: 1;
+}
+.ripple-btn {
+  width: 20.3vw;
+  padding: 3% 0;
+  background: #f05756;
+  cursor: pointer;
+  border-radius: 16px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+}
+.ripple-btn p {
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+.ripple-btn::before {
+  content: "";
+  position: absolute;
+  background: rgba(0,0,0,.1);
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: width 1s, height .3s ease-in-out;
+}
+.ripple-btn:hover::before {
+  width: 1000%;
+  height: 1000%;
 }
 
 
-.Stock-item, .Settings {
+.scrolly {
+  overflow-y: scroll;
+}
+
+.Stock-item,
+.Settings {
   display: flex;
   flex-direction: column;
   padding: 1%;
 }
 
 .setting-name {
-  font-size: calc(3vw + 20px);
-  padding: 2% 0;
+  font-size: 4vw;
+  padding: 1vw 0;
 }
 
 .theme {
@@ -250,6 +380,43 @@
   transform: translateX(26px);
 }
 
-
-
-
+.stock-card {
+  display: flex;
+  flex-direction: row;
+  padding: .5vw;
+  margin: 1%;
+  align-items: center;
+  border-radius: 1.5vw;
+}
+.stock-card-img {
+  flex: 1;
+}
+.stock-card-img img {
+  width: 10vw;
+  height: 6vw;
+  border-radius: 1vw;
+}
+.stock-card-name {
+  flex: 5;
+}
+.stock-card-name h1 {
+  font-size:2vw;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.stock-card-stock-count-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.stock-card-stock-count-btn button {
+  font-size: 1vw;
+  width: 2.5vw;
+  height: 2.5vw;
+}
+.stock-card-stock-count-btn p {
+  font-size: 2vw;
+  width: 4.5vw;
+  text-align: center;
+}
