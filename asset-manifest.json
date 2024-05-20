@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/restaurant/static/css/main.b25e4c14.css",
-    "main.js": "/restaurant/static/js/main.82e27302.js",
+    "main.js": "/restaurant/static/js/main.f92d1ebe.js",
     "static/js/453.3257c68d.chunk.js": "/restaurant/static/js/453.3257c68d.chunk.js",
     "static/media/logo.png": "/restaurant/static/media/logo.f69fa4942a666aa53712.png",
     "static/media/noddle2.jpg": "/restaurant/static/media/noddle2.b0fbe74717ac335c0787.jpg",
@@ -21,11 +21,11 @@
     "static/media/desert5.jpg": "/restaurant/static/media/desert5.6c365dfae867ac11e050.jpg",
     "index.html": "/restaurant/index.html",
     "main.b25e4c14.css.map": "/restaurant/static/css/main.b25e4c14.css.map",
-    "main.82e27302.js.map": "/restaurant/static/js/main.82e27302.js.map",
+    "main.f92d1ebe.js.map": "/restaurant/static/js/main.f92d1ebe.js.map",
     "453.3257c68d.chunk.js.map": "/restaurant/static/js/453.3257c68d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b25e4c14.css",
-    "static/js/main.82e27302.js"
+    "static/js/main.f92d1ebe.js"
   ]
 }
